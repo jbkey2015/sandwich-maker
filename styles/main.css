@@ -1,7 +1,12 @@
 body {
-    background-color: rgb(119, 119, 180);
+    background-image: url("https://www.tokkoro.com/picsup/1222880-sandwich.jpg"); 
 }
 
 h1 {
     text-align: center;
+    padding: 1em;
+}
+
+#style-button {
+    padding: 1em;
 }
