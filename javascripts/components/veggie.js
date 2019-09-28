@@ -11,7 +11,7 @@ const veggies = [
 const getSelectedVeggies = () => {
     const selectedVeggies = [];
     //get all veggie checkboxes
-    const breadVeggieboxes = document.getElementsByClassName('veggie');
+    const veggieCheckboxes = document.getElementsByClassName('veggie');
     //keep the checked ones in a new array
     for (let j = 0; j < veggieCheckboxes.length; j++){
         for (let k = 0; k < veggies.length; k++){
