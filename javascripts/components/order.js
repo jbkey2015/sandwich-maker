@@ -27,7 +27,7 @@ const createOrderEvent = () => {
 }
 
 const printOrderButton = () => {
-    const domString = '<button id="order-button" class="btn btn-success">Make Sammich</button>';
+    const domString = '<button id="order-button" class="btn btn-success">Make Sammich</button> <button class="btn btn-primary" value="Refresh Page" onClick="window.location.reload();">Clear</button>';
     utilities.printToDom('click-order', domString);
     document.getElementById('order-button').addEventListener('click', createOrderEvent);
 };
