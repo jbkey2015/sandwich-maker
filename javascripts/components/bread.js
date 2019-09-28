@@ -5,7 +5,7 @@ const breads = [
     {id:"bread2", name:"garlic", price: 90},
     {id:"bread3", name:"white", price: 80},
     {id:"bread4", name:"wheat", price: 85},
-    {id:"bread5", name:"herbs", price: 100},
+    {id:"bread5", name:"lettuce", price: 100},
 ];
 
 const getSelectedBreads = () => {
